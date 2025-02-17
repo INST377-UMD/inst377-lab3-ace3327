@@ -1,0 +1,88 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana;
+  }
+  
+  #header {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: crimson;
+    text-align: center;
+  }
+  
+  #main-nav a {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #main-nav a:hover {
+    background-color: #7c7c7c;
+    color: white;
+  }
+  
+  #main-nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #main-nav a:hover ul {
+    display: block;
+    position: absolute;
+    background-color: crimson;
+    float: left;
+    padding: 0;
+  }
+  
+  #main-nav ul a {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+  }
+  
+  .rock-paper-scissors {
+    background-color: crimson;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #name:hover {
+    width:50%;
+  }
+  
+  #sidebar {
+    text-align: center;
+    background-color: wheat;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  #sidebar:hover {
+    text-align: center;
+    background-color: cornsilk;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .main-content {
+    margin: 20px;
+    padding: 5px;
+  }
